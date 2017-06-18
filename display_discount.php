@@ -34,6 +34,7 @@ $discount_price_formatted="$".number_format($discount_price,2);
 
         <label>Discount Price:</label>
         <span><?php echo $discount_price_formatted; ?></span><br>
-    </main>
+   
+   </main>
 </body>
 </html>
