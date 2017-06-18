@@ -5,7 +5,7 @@ $discount_percent=filter_input(INPUT_POST,'discount_percent');
 $discount_amount=$list_price * $discount_percent *0.01;
 $discount_price=$list_price - $discount_amount;
 $list_price_formatted= "$".number_format($list_price,2);
-$discount_percent_formatted = number_format($discount_percent,1)."%";
+$discount_percent_formatted = $discount_percent."%";
 $discount_amount_formatted="$".number_format($discount_amount,2);
 $discount_price_formatted="$".number_format($discount_price,2);
 ?>
